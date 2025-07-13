@@ -35,7 +35,6 @@ export default function Header() {
       <div className="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
         <h2 className="text-2xl font-bold text-indigo-600">Carla Rocha</h2>
 
-        {/* Ícone do menu mobile */}
         <div
           className="sm:hidden cursor-pointer text-indigo-700 p-2 hover:bg-indigo-100 rounded-full transition-all duration-300"
           onClick={() => setMobileMenu(!mobileMenu)}
@@ -43,7 +42,6 @@ export default function Header() {
           <Menu className="size-8" />
         </div>
 
-        {/* Menu mobile */}
         <nav
           className={`sm:hidden fixed left-0 top-0 w-full h-screen bg-indigo-50 z-40 transition-all duration-500 ${mobileMenu ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
             }`}
@@ -57,7 +55,7 @@ export default function Header() {
               <a
                 href="#introduction"
                 onClick={() => handleNavClick("introduction")}
-                className={active === "introduction" ? "text-orange-500" : "hover:text-indigo-700"}
+                className={active === "introduction" ? "text-orange-500" : "hover:text-orange-400"}
               >
                 Introdução
               </a>
@@ -66,7 +64,7 @@ export default function Header() {
               <a
                 href="#about"
                 onClick={() => handleNavClick("about")}
-                className={active === "about" ? "text-orange-500" : "hover:text-indigo-700"}
+                className={active === "about" ? "text-orange-500" : "hover:text-orange-400"}
               >
                 Sobre mim
               </a>
@@ -75,7 +73,7 @@ export default function Header() {
               <a
                 href="#future"
                 onClick={() => handleNavClick("future")}
-                className={active === "future" ? "text-orange-500" : "hover:text-indigo-700"}
+                className={active === "future" ? "text-orange-500" : "hover:text-orange-400"}
               >
                 Perspectiva e Futuro
               </a>
@@ -83,13 +81,12 @@ export default function Header() {
           </ul>
         </nav>
 
-        {/* Menu desktop */}
         <nav className="hidden sm:flex">
           <ul className="flex gap-6 text-zinc-700 text-sm font-medium">
             <li>
               <a
                 href="#introduction"
-                className={active === "introduction" ? "text-orange-500" : "hover:text-indigo-700"}
+                className={active === "introduction" ? "text-orange-600" : "hover:text-orange-400"}
               >
                 Introdução
               </a>
@@ -97,7 +94,7 @@ export default function Header() {
             <li>
               <a
                 href="#about"
-                className={active === "about" ? "text-orange-500" : "hover:text-indigo-700"}
+                className={active === "about" ? "text-orange-600" : "hover:text-orange-400"}
               >
                 Sobre mim
               </a>
@@ -105,7 +102,7 @@ export default function Header() {
             <li>
               <a
                 href="#future"
-                className={active === "future" ? "text-orange-500" : "hover:text-indigo-700"}
+                className={active === "future" ? "text-orange-600" : "hover:text-orange-400"}
               >
                 Perspectiva e Futuro
               </a>

@@ -3,6 +3,7 @@ import Header from "./pages/components/header"
 import Introduction from "./pages/introduction-page"
 import AboutPage from "./pages/about-page"
 import FuturePage from "./pages/future-page"
+import Footer from "./pages/footer"
 
 export default function App() {
 
@@ -16,6 +17,8 @@ export default function App() {
         <AboutPage />
         <Divider />
         <FuturePage />
+        <Divider />
+        <Footer/>
 
       </div>
     </>
