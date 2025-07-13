@@ -17,7 +17,7 @@ export default function IntroductionPage() {
    useEffect(() => {
       const interval = setInterval(() => {
          setIndex((prev) => (prev + 1) % phrases.length)
-      }, 5000);
+      }, 7000);
 
       return () => clearInterval(interval)
    }, [])
