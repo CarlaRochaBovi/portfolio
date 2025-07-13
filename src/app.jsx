@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <>
-      <div className="w-full h-full font-[Poppins] bg-[#f9fafb] ">
+      <div className="w-full h-full font-[Poppins] bg-[#f9fafb] relative">
 
         <Header />
         <Introduction />

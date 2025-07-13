@@ -1,12 +1,34 @@
-# React + Vite
+# Portfolio - Carla Rocha Bovi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre
 
-Currently, two official plugins are available:
+Este é o meu portfolio pessoal, onde apresento minhas habilidades, interesses e perspectivas profissionais. Desenvolvido com foco em design limpo, moderno e responsivo, este site foi construído para mostrar meu trabalho e contar um pouco sobre mim.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ReactJS** — Biblioteca JavaScript para construção da interface.
+- **TailwindCSS** — Framework CSS para estilização rápida e responsiva.
+- **Framer Motion** — Biblioteca para animações suaves e interativas.
+- **Lucide Icons** — Ícones vetoriais leves e customizáveis.
+- **Vite** — Ferramenta de build rápida para projetos front-end.
+
+---
+
+## Funcionalidades
+
+- Navegação suave entre seções com destaque no menu conforme o usuário rola a página.
+- Apresentação dinâmica de frases com animação.
+- Seções sobre mim, interesses, família e perspectiva profissional.
+- Design responsivo para ótima experiência em dispositivos móveis e desktop.
+- Divisores com efeito visual suave para separar conteúdos.
+
+---
+
+## Como rodar o projeto localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seuusuario/seu-portfolio.git
