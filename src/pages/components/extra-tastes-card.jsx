@@ -1,5 +1,5 @@
-import rubiksCube from './src/assets/rubiks-cube.png'
-import gamepad from './src/assets/gamepad.png'
+import rubiksCube from '../../assets/rubiks-cube.png'
+import gamepad from '../../assets/gamepad.png'
 
 export default function ExtraTastesCard() {
    return (
