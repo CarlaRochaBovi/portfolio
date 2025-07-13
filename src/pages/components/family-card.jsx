@@ -18,7 +18,7 @@ export default function FamilyCard() {
          </div>
          <div className="w-full h-full gap-2 flex justify-end items-end max-lg:justify-between max-lg:items-start">
             <img src={family} alt="Foto da minha família" className="max-w-100 h-60 object-cover object-[50%_25%]  w-full min-w-40 rounded-lg" />
-            <img src={dadAndMe} alt="Foto com meu pai" className="min-w-20 min-h-20 max-w-auto max-h-60 object-cover object-[50%_25%] rounded-lg shadow-md" />
+            <img src={dadAndMe} alt="Foto com meu pai" className="max-w-100 h-60 object-cover object-[50%_25%]  w-full min-w-40 rounded-lg" />
          </div>
 
       </div>
