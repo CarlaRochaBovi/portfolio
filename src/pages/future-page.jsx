@@ -7,9 +7,7 @@ export default function FuturePage() {
 
 
             <p className="text-lg max-sm:text-md text-zinc-700 leading-relaxed">
-               Um dos meus grandes sonhos é fazer intercâmbio no Canadá ou Inglaterra, e se possível, conquistar um emprego estável e morar lá.
-               Atualmente curso Análise e Desenvolvimento de Sistemas na Faculdade Unifadra, em Dracena.
-               Meu principal objetivo profissional é atuar como desenvolvedora Web Full Stack.
+               Um dos meus grandes sonhos é fazer intercâmbio no Canadá ou na Inglaterra e, se possível, conquistar um emprego estável e morar lá. Atualmente, curso Análise e Desenvolvimento de Sistemas na Faculdade Unifadra, em Dracena. Meu principal objetivo profissional é atuar como desenvolvedora Web Full Stack.
             </p>
          </div>
 

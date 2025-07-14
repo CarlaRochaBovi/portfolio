@@ -7,13 +7,13 @@ export default function FamilyCard() {
          <div className="space-y-4">
             <h1 className="max-sm:text-2xl text-4xl font-bold text-indigo-700">Histórico familiar</h1>
             <p className="text-lg max-sm:text-md text-zinc-700 leading-relaxed">
-               Moro em <span className="text-orange-500 font-semibold">Nova Independência</span>, com minha mãe e minha avó. Pai falecido.
+               Moro em <span className="text-orange-500 font-semibold">Nova Independência</span>, com minha mãe e minha avó. Meu pai é falecido.
                Sou filha única e cresci em um ambiente familiar <span className="italic">afetuoso e acolhedor</span>.
             </p>
             <p className="text-lg text-zinc-600 italic leading-relaxed">
-               “Como minha mãe sempre diz: Se você já tem o
+               “Como minha mãe sempre diz: ‘Se você já tem o
                <span className="text-orange-500 font-semibold"> não</span>, então vá atrás do
-               <span className="text-orange-500 font-semibold"> sim</span>.”
+               <span className="text-orange-500 font-semibold"> sim</span>.’”
             </p>
          </div>
          <div className="w-full h-full gap-2 flex justify-end items-end max-lg:justify-between max-lg:items-start">

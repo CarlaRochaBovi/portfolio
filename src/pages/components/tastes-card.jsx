@@ -9,9 +9,9 @@ export default function TastesCard() {
             <h2 className="text-lg sm:text-2xl font-semibold text-indigo-700 mb-4">Gosto</h2>
             <ul className="list-disc list-inside space-y-2 text-sm sm:text-lg text-neutral-700 marker:text-orange-500">
                <li>Desenvolver aplicações</li>
-               <li>Ler</li>
+               <li>Ler livros</li>
                <li>Ouvir música</li>
-               <li>Assistir anime</li>
+               <li>Assistir animes</li>
             </ul>
          </div>
 
@@ -20,8 +20,8 @@ export default function TastesCard() {
          <div>
             <h2 className="text-lg sm:text-2xl font-semibold text-indigo-700 mb-4">Não gosto</h2>
             <ul className="list-disc list-inside space-y-2 text-sm sm:text-lg text-neutral-700 marker:text-orange-500">
-               <li>Ser interrompida enquanto estou concentrada</li>
-               <li>Convivência com pessoas que não demonstram empatia</li>
+               <li>Ser interrompida quando estou concentrada</li>
+               <li>Conviver com pessoas que não demonstram empatia</li>
                <li>Falta de interesse por debates construtivos</li>
             </ul>
          </div>
