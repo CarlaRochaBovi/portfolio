@@ -7,7 +7,8 @@ const phrases = [
    "Lamentar é diferente de se arrepender.",
    "Escolher não escolher, não é bem uma escolha.",
    "Busque a paz com as ferramentas da guerra.",
-   "Quem não está disposto a sacrificar nada, não consegue mudar nada!"
+   "Quem não está disposto a sacrificar nada, não consegue mudar nada!",
+   "O que é melhor? Vida construída sobre uma mentira, ou morte nascida da verdade?"
 ]
 
 
